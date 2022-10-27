@@ -4,8 +4,8 @@
 
 Tema este implementata in C++, folosindu-ma de scheletul de laborator putin.
 
-Walsh:
 ********************************************************************************
+Walsh:
 
 Am o clasa Task ce contine n, k si coordonatele, perechile de numere naturale
 x si y. In aceasta clasa am o metoda solve, ce apeleaza citirea si rezolvarea
@@ -31,8 +31,8 @@ Flagul rev este negat de fiecare data cand perechea de coordonate ajunge in
 cadranul 4.
 COMPLEXITATE: O(k * logn)
 
-Statistics:
 ********************************************************************************
+Statistics:
 
 Clasa Task este asemanatoare cu cea de la problema anterioara, asemenea si
 metoda solve().
@@ -44,9 +44,8 @@ suma si verific daca mai pot adauga elemente negative, conditia fiind ca suma
 sa fie mai mare decat 0, astfel obtinand cea mai mare dominanta.
 COMPLEXITATE: 
 
-
-Prinel:
 ********************************************************************************
+Prinel:
 
 Metoda myKnapsack calculeaza vectorul de divizori pana la target.
 Sunt doua cazuri:
@@ -58,9 +57,8 @@ Flow-ul pe un exemplu:
 	1 -> 2 -> 4 -> 6 -> 7 care nu verifica cerinta
 COMPLEXITATE: O(k * logk)
 
-
-Crypto:
 ********************************************************************************
+Crypto:
 
 Metoda crypto calculeaza numarul unic de litere din secventa, pentru a putea fi
 folosit mai tarziu, si initializeaza un vector de forma (1, 0, 0, ..., 0),
